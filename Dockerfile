@@ -1,4 +1,5 @@
-FROM alpine:3.9
+# gandalfmagic/curl-ssl:1.0.1
+FROM alpine:3.18
 
 ENV PACKAGES "jq gettext curl openssl ca-certificates bzip2"
 
